@@ -65,28 +65,30 @@ function preload(){
   platformImg = loadImage("backgrounds/platform.png")
   stagePlatformImg = loadImage("backgrounds/stagePlatform.png")
   
-  player_img= loadAnimation("flatboy/Idle1.png","flatboy/Idle2.png","flatboy/Idle3.png","flatboy/Idle4.png",
-    "flatboy/Idle5.png","flatboy/Idle6.png","flatboy/Idle7.png","flatboy/Idle8.png","flatboy/Idle9.png",
-    "flatboy/Idle10.png","flatboy/Idle11.png","flatboy/Idle12.png","flatboy/Idle13.png","flatboy/Idle14.png",
-    "flatboy/Idle15.png")
 
-  player_dead_img= loadAnimation("flatboy/Dead1.png","flatboy/Dead2.png","flatboy/Dead3.png","flatboy/Dead4.png",
-    "flatboy/Dead5.png","flatboy/Dead6.png","flatboy/Dead7.png","flatboy/Dead8.png","flatboy/Dead9.png",
-    "flatboy/Dead10.png","flatboy/Dead11.png","flatboy/Dead12.png","flatboy/Dead13.png")
+  player_img= loadAnimation("Idle1.png","Idle2.png","Idle3.png","Idle4.png",
+    "Idle5.png","Idle6.png","Idle7.png","Idle8.png","Idle9.png",
+    "Idle10.png","Idle11.png","Idle12.png","Idle13.png","Idle14.png",
+    "Idle15.png")
 
-  player_run_img= loadAnimation("flatboy/Run1.png","flatboy/Run2.png","flatboy/Run3.png","flatboy/Run4.png",
-    "flatboy/Run5.png","flatboy/Run6.png","flatboy/Run7.png","flatboy/Run8.png","flatboy/Run9.png",
-    "flatboy/Run10.png","flatboy/Run11.png","flatboy/Run12.png","flatboy/Run13.png","flatboy/Run14.png",
-    "flatboy/Run15.png")
+  player_dead_img= loadAnimation("Dead1.png","Dead2.png","Dead3.png","Dead4.png",
+    "Dead5.png","Dead6.png","Dead7.png","Dead8.png","Dead9.png",
+    "Dead10.png","Dead11.png","Dead12.png","Dead13.png")
 
-  player_jump_img= loadAnimation("flatboy/Jump1.png","flatboy/Jump2.png","flatboy/Jump3.png","flatboy/Jump4.png",
-    "flatboy/Jump5.png","flatboy/Jump6.png","flatboy/Jump7.png","flatboy/Jump8.png","flatboy/Jump9.png",
-    "flatboy/Jump10.png","flatboy/Jump11.png","flatboy/Jump12.png","flatboy/Jump13.png","flatboy/Jump14.png",
-    "flatboy/Jump15.png")
+  player_run_img= loadAnimation("Run1.png","Run2.png","Run3.png","Run4.png",
+    "Run5.png","Run6.png","Run7.png","Run8.png","Run9.png",
+    "Run10.png","Run11.png","Run12.png","Run13.png","Run14.png",
+    "Run15.png")
 
-    boss_run= loadAnimation("freedinosprite/Run (1).png","freedinosprite/Run (2).png","freedinosprite/Run (3).png",
-    "freedinosprite/Run (4).png","freedinosprite/Run (5).png","freedinosprite/Run (6).png", 
-    "freedinosprite/Run (7).png","freedinosprite/Run (8).png")
+  player_jump_img= loadAnimation("Jump1.png","Jump2.png","Jump3.png","Jump4.png",
+    "Jump5.png","Jump6.png","Jump7.png","Jump8.png","Jump9.png",
+    "Jump10.png","Jump11.png","Jump12.png","Jump13.png","Jump14.png",
+    "Jump15.png")
+
+    boss_run= loadAnimation("freedinosprite/png/Run (1).png","freedinosprite/png/Run (2).png","freedinosprite/png/Run (3).png",
+    "freedinosprite/png/Run (4).png","freedinosprite/png/Run (5).png","freedinosprite/png/Run (6).png", 
+    "freedinosprite/png/Run (7).png","freedinosprite/png/Run (8).png")
+
     
     boss_dead= loadAnimation("freedinosprite/Dead (1).png","freedinosprite/Dead (2).png","freedinosprite/Dead (3).png",
     "freedinosprite/Dead (4).png","freedinosprite/Dead (5).png","freedinosprite/Dead (6).png",

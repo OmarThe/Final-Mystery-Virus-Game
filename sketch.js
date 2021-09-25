@@ -65,6 +65,7 @@ function preload(){
   platformImg = loadImage("backgrounds/platform.png")
   stagePlatformImg = loadImage("backgrounds/stagePlatform.png")
   
+
   player_img= loadAnimation("Idle1.png","Idle2.png","Idle3.png","Idle4.png",
     "Idle5.png","Idle6.png","Idle7.png","Idle8.png","Idle9.png",
     "Idle10.png","Idle11.png","Idle12.png","Idle13.png","Idle14.png",
@@ -87,10 +88,11 @@ function preload(){
     boss_run= loadAnimation("freedinosprite/png/Run (1).png","freedinosprite/png/Run (2).png","freedinosprite/png/Run (3).png",
     "freedinosprite/png/Run (4).png","freedinosprite/png/Run (5).png","freedinosprite/png/Run (6).png", 
     "freedinosprite/png/Run (7).png","freedinosprite/png/Run (8).png")
+
     
-    boss_dead= loadAnimation("freedinosprite/png/Dead (1).png","freedinosprite/png/Dead (2).png","freedinosprite/png/Dead (3).png",
-    "freedinosprite/png/Dead (4).png","freedinosprite/png/Dead (5).png","freedinosprite/png/Dead (6).png",
-    "freedinosprite/png/Dead (7).png","freedinosprite/png/Dead (8).png")
+    boss_dead= loadAnimation("freedinosprite/Dead (1).png","freedinosprite/Dead (2).png","freedinosprite/Dead (3).png",
+    "freedinosprite/Dead (4).png","freedinosprite/Dead (5).png","freedinosprite/Dead (6).png",
+    "freedinosprite/Dead (7).png","freedinosprite/Dead (8).png")
 
   dino1Img = loadAnimation("Mini-Dinos/DinoSprites_doux-0/0.png","Mini-Dinos/DinoSprites_doux-0/1.png","Mini-Dinos/DinoSprites_doux-0/2.png",
     "Mini-Dinos/DinoSprites_doux-0/3.png","Mini-Dinos/DinoSprites_doux-0/4.png","Mini-Dinos/DinoSprites_doux-0/5.png","Mini-Dinos/DinoSprites_doux-0/6.png",
